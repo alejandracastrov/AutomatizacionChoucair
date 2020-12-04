@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e5b2214243fcca0757ddbe6cf7b3199c99887ec8eb327342d6500e4e06e99906.html">New Experiences</a></span>
+                > <span class="truncate-60"><a
+                    href="d69e9cffae30ee6d70ecfa30d23eaab029910dbe2cb40a81c6fb92a58927a54c.html">buy an Dress in the pag new experience </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-12-2020 10:10</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">New Experiences </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user I want to enter the NewExperience page to buy the printed dresses
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">buy an Dress in the pag new experience
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="b98a56a085884ea2b64a30cdd7911530a6e1caba4f12227e61067eb3bbc174e4.png" title=" Given than maria wants to enter the page new experience" width="1920"/>
+                <img src="2388efa1491a535d12f4c8505665aad19f1532fdb9b4cf967f93b9fe472f753a.png" title=" When the search the dress in the New Experience
+| email | first_Name | last_name | password | day | month | year | address | city | state | postal_code | mobile_phone | address3 |
+| ana@hotmail.com | Ana | gomez | ana23335 | 5 | 6 | 1992 | Street | Houston | 31 | 07636 | 33467256 | Street45 |" width="1920"/>
+                <img src="2388efa1491a535d12f4c8505665aad19f1532fdb9b4cf967f93b9fe472f753a.png" title=" Maria search dresses" width="1920"/>
+                <img src="2388efa1491a535d12f4c8505665aad19f1532fdb9b4cf967f93b9fe472f753a.png" title=" Maria clicks on Link Dress" width="1920"/>
+                <img src="df12593bf0f38273cb4b1d7a42ee4f4ebc6ed913ef0b148523bff27243756c1e.png" title=" Maria clicks on Img of Dress" width="1920"/>
+                <img src="9b091ed462f73a61ea44672f50898d721ed204cc13030b0719e8eba5bb29cbdd.png" title=" Maria clicks on Add Cart" width="1920"/>
+                <img src="552bd1b1d1687cb283330dff4244cdca952f731a5712347ae68203c8ef2d2c6d.png" title=" Maria search dresses (completed)" width="1920"/>
+                <img src="a9301113ddbf18acab412eb3d2cb3aa0233335e3f5ff89533e5f564acf2ff99a.png" title=" Maria register dress" width="1920"/>
+                <img src="a9301113ddbf18acab412eb3d2cb3aa0233335e3f5ff89533e5f564acf2ff99a.png" title=" Maria clicks on Checkout" width="1920"/>
+                <img src="971a07922b1357a621ba73d10b32753dd9d9ac7e9c73bfabeb3d21f5781af6e9.png" title=" Maria clicks on Checkout" width="1920"/>
+                <img src="971a07922b1357a621ba73d10b32753dd9d9ac7e9c73bfabeb3d21f5781af6e9.png" title=" Maria register dress (completed)" width="1920"/>
+                <img src="847612ad7a4e61615bb971b2419e60ac847c434cacb3a05e9ba76ffac8ab618d.png" title=" Maria sign user" width="1920"/>
+                <img src="847612ad7a4e61615bb971b2419e60ac847c434cacb3a05e9ba76ffac8ab618d.png" title=" Maria enters 'ana@hotmail.com' into where do we write the Email" width="1920"/>
+                <img src="af694186a85a2380dd0e1b418e6feb59c7147e1c27c50b76663fb363a2974adf.png" title=" Maria clicks on where do we write create an account" width="1920"/>
+                <img src="857a5e9dffdfc6b7c2d082f93ac69f67db42707334f9175b186bab2e2bb35386.png" title=" Maria clicks on where do we write Gender" width="1920"/>
+                <img src="5e106770383e64007dc6f8827a00f4a1c816e156f4c364b21bcb4f9e6c5acb66.png" title=" Maria enters 'Ana' into where do we write First Name" width="1920"/>
+                <img src="ffaed95c7abd29a6a982ca3b8b24c62fce74252341938a886d602d24317c4232.png" title=" Maria enters 'gomez' into where do we write Last Name" width="1920"/>
+                <img src="3247a36d9f1f77bb58f1cd8cc77d402a8fc6e0c70be7852648a8a16d0627bddd.png" title=" Maria clicks on where do we write second email" width="1920"/>
+                <img src="1ed66f890c783d9b2d77241e076289779ec115c0109239c900c524a67505c2cd.png" title=" Maria enters 'ana23335' into where do we write password" width="1920"/>
+                <img src="5d16b2189f83006a89598599bc10aea72db30bef31250a8acad1d89a7a6fbed3.png" title=" Maria clicks on where do we write the day of birth" width="1920"/>
+                <img src="05a4e416c5e9a73102059834e691bb808f3c2631e7d8fca191cd0f59d013187b.png" title=" Maria clicks on where do we write the day of birth" width="1920"/>
+                <img src="ae601c074df895b37b1baa4a5149d7e7eedbb4b0529264d8a0cb3294a382797b.png" title=" Maria clicks on where do we write the year of birth" width="1920"/>
+                <img src="d856899b42e26f2ff69887c97ac95280ad20cc40d6fbf11a99edbfe8017a32ec.png" title=" Maria enters 'Street' into where do we write address" width="1920"/>
+                <img src="cadf4c21d67ffd0f3981f495666bc42decc0ed8cd1692d059acc87017f54bc6f.png" title=" Maria enters 'Houston' into where do we write city" width="1920"/>
+                <img src="c4ef7c5ab5c98dc13b16252965bec070d03aeebf9f453c716c4e6044dd14f875.png" title=" Maria clicks on where do we write the state" width="1920"/>
+                <img src="cb71c862f26910bbbd785c81101f8e7986cf3e084e6ab3de46f7ff147d820b94.png" title=" Maria enters '07636' into where do we write postcode" width="1920"/>
+                <img src="e0f3afc23bc19c8f5365c25fec7f934dc5a872ba213a517a5e42a9d2a8f44632.png" title=" Maria clicks on where do we write country" width="1920"/>
+                <img src="8d2d85bfcd324f90bc0137406606b6a5a5ab013f4b0c9db56083e27b9d2c1a75.png" title=" Maria enters '33467256' into where do we write mobile_phone" width="1920"/>
+                <img src="5b817b990e598ca2491419e7c3701fbc7faa4ff5dcf085870a0c3799cead345d.png" title=" Maria enters 'Street45' into where do we write ADDRESS3" width="1920"/>
+                <img src="603a745d902dcfce887e2e88d124bdd7e562e25a7a9d499fd5d476fc563a5498.png" title=" Maria clicks on BTN REGISTER" width="1920"/>
+                <img src="603a745d902dcfce887e2e88d124bdd7e562e25a7a9d499fd5d476fc563a5498.png" title=" Maria sign user (completed)" width="1920"/>
+                <img src="c2c15215da69e825b1234f547dde3e73f08e401b6507bc1f740ecd23ff98d30a.png" title=" Maria address" width="1920"/>
+                <img src="c2c15215da69e825b1234f547dde3e73f08e401b6507bc1f740ecd23ff98d30a.png" title=" Maria clicks on Checkout" width="1920"/>
+                <img src="c2c15215da69e825b1234f547dde3e73f08e401b6507bc1f740ecd23ff98d30a.png" title=" Maria address (completed)" width="1920"/>
+                <img src="b4f2321b23009b2eb081b0bdbf099c94e523f94be765bfbac5f83511c22f1b2e.png" title=" Maria send dress" width="1920"/>
+                <img src="b4f2321b23009b2eb081b0bdbf099c94e523f94be765bfbac5f83511c22f1b2e.png" title=" Maria clicks on where do we write TERMS_OF_SERVICE" width="1920"/>
+                <img src="ce4efa7fff8704c5c83a53fb1fbdcb2ff38678f08ceac1e8c5b47a63df5b1082.png" title=" Maria clicks on Checkout" width="1920"/>
+                <img src="ce4efa7fff8704c5c83a53fb1fbdcb2ff38678f08ceac1e8c5b47a63df5b1082.png" title=" Maria send dress (completed)" width="1920"/>
+                <img src="dbc8efba8cf68b4645663d78c5c342145bf65c809c32319f56e9455f1f9ec222.png" title=" Maria pay" width="1920"/>
+                <img src="dbc8efba8cf68b4645663d78c5c342145bf65c809c32319f56e9455f1f9ec222.png" title=" Maria clicks on Order Processing" width="1920"/>
+                <img src="55b5389a94cebadb799ed282d70b2fe960e9584f5d532a0265917ebcfc75e95b.png" title=" Maria clicks on Confirm Order" width="1920"/>
+                <img src="55b5389a94cebadb799ed282d70b2fe960e9584f5d532a0265917ebcfc75e95b.png" title=" Maria pay (completed)" width="1920"/>
+                <img src="55b5389a94cebadb799ed282d70b2fe960e9584f5d532a0265917ebcfc75e95b.png" title=" When the search the dress in the New Experience
+| email | first_Name | last_name | password | day | month | year | address | city | state | postal_code | mobile_phone | address3 |
+| ana@hotmail.com | Ana | gomez | ana23335 | 5 | 6 | 1992 | Street | Houston | 31 | 07636 | 33467256 | Street45 | (completed)" width="1920"/>
+                <img src="55b5389a94cebadb799ed282d70b2fe960e9584f5d532a0265917ebcfc75e95b.png" title=" Then She finds the dress called Printed Chiffon Dress
+| message |
+| Your order on My Store is complete. |" width="1920"/>
+                <img src="55b5389a94cebadb799ed282d70b2fe960e9584f5d532a0265917ebcfc75e95b.png" title=" Then answer" width="1920"/>
+                <img src="55b5389a94cebadb799ed282d70b2fe960e9584f5d532a0265917ebcfc75e95b.png" title=" Then She finds the dress called Printed Chiffon Dress
+| message |
+| Your order on My Store is complete. | (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

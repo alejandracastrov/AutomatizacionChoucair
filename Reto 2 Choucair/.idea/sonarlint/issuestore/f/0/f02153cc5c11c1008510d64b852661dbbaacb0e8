@@ -1,0 +1,20 @@
+
+o	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÒÊ¨ıÿÿÿÿ8ò“İ¶â.
+i	java:S100p"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼²å8â¡Ô¶â.
+j	java:S100x"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Â¾å8â¡Ô¶â.
+o	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İí‚Æùÿÿÿÿ8â¡Ô¶â.
+j	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚†éƒ8ò“İ¶â.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı×ÈÄ8€¼„·â.
+m	java:S117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Â¾å8æµâ.
+n	java:S116"SRename this field "Address3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹©Ğ8¼ßƒ·â.
+o	java:S100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½À–üÿÿÿÿ8â¡Ô¶â.
+p	java:S116"TRename this field "last_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šø´¯8¤®³µâ.
+p	java:S116"URename this field "First_Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ş»u8…¡€µâ.
+s	java:S116"WRename this field "mobile_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÌ­¸8¥ÿ¶â.
+r	java:S116"VRename this field "Postal_Code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŠ²­8ÎÓÜ¶â.
+o	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Šî™ıÿÿÿÿ8€¼„·â.
+r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Šî™ıÿÿÿÿ8€¼„·â.
+m	java:S116"RRename this field "Country" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š„’98˜‘·â.
+m	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚†éƒ8ò“İ¶â.
+l	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼²å8ı¤…µâ.
+q	java:S116"PRename this field "State" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¾ñàúÿÿÿÿ8â¡Ô¶â.
